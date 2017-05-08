@@ -1,5 +1,8 @@
 
+# Project Overview
 
+Udacity's web-based application that reads RSS feeds and uses Jasmine to test JavaScript functions.
+ 
 ## Installation:
 
 #### Part 1: Simple download
@@ -28,10 +31,6 @@ Edit the `allFeeds` variable in **./js/app.js** to make the provided test fail.
    is `.entry` element within the `.feed` container.
 7. Test that ensures when a new feed is loaded
    by the `loadFeed` function that the content actually changes.
-
-# Project Overview
-
- A web-based application that reads RSS feeds and uses Jasmine to test JavaScript functions.
 
 
 # Project Rubric
