@@ -1,27 +1,36 @@
 
-# Installation:
-
-
-Scroll to the bottom of the page to view the Jasmine test section. 
-Tests that are green have passed and red have failed.
-
-# Tests:
-
-* Test that loops through each feed in the allFeeds object and
-  ensures it has a URL defined and that the URL is not empty.
-* Test that loops through each feed in the allFeeds object and
-  ensures it has a name defined and that the name is not empty.
-* Test to ensure menu element is hidden by default.
-* Test that ensures the menu opens when the menu icon is clicked.
-* Test that ensures the menu closes when clicked again.
-* Test to ensure when the loadFeed function is called and completed, that there
-  is .entry element within the .feed container.
-* Test that ensures when a new feed is loaded
-  by the loadFeed function that the content actually changes.
-
 # Project Overview
 
- A web-based application that reads RSS feeds and uses Jasmine to test JavaScript functions.
+Udacity's web-based application that reads RSS feeds and uses Jasmine to test JavaScript functions.
+ 
+## Installation:
+
+#### Part 1: Simple download
+1.1 Clone or Download this repo:
+```bash
+$> git clone https://github.com/Martinka0/U-MAP
+```
+1.2 Unzip the repo. In the dist directory, double click the index.html file to launch the website in your browser.
+
+#### Part 2: Review the test 
+
+Scroll to the bottom of the page to view the Jasmine test section. 
+Tests that are green have passed and red have failed. (8 specs total)
+Edit the `allFeeds` variable in **./js/app.js** to make the provided test fail.
+
+# Added Tests:
+
+1. Test that loops through each feed in the `allFeeds` object and
+   ensures it has a URL defined and that the URL is not empty.
+2. Test that loops through each feed in the `allFeeds` object and
+   ensures it has a name defined and that the name is not empty.
+3. Test to ensure menu element is hidden by default.
+4. Test that ensures the menu opens when the menu icon is clicked.
+5. Test that ensures the menu closes when clicked again.
+6. Test to ensure when the `loadFeed` function is called and completed, that there
+   is `.entry` element within the `.feed` container.
+7. Test that ensures when a new feed is loaded
+   by the `loadFeed` function that the content actually changes.
 
 
 # Project Rubric
