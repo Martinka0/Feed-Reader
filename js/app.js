@@ -10,7 +10,7 @@
 var allFeeds = [
     {
         name: 'Udacity Blog',
-        url: //'http://blog.udacity.com/feed'
+        url: 'http://blog.udacity.com/feed'
     }, {
         name: 'CSS Tricks',
         url: 'http://feeds.feedburner.com/CssTricks'
@@ -119,7 +119,7 @@ $(function() {
     feedList.on('click', 'a', function() {
         var item = $(this);
 
-        $('body').addClass('menu-hidden');
+        $('body').addClass('menu');
         loadFeed(item.data('id'));
         return false;
     });
