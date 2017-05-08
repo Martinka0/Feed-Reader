@@ -91,7 +91,7 @@ $(function() {
             loadFeed(0, done)
          });
          it('ensures .entry element is within the .feed container', function() {
-         expect($('.feed .entry').length).nottoBe(0);
+         expect($('.feed .entry').length).not.toBe(0);
          });
          });
 
