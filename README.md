@@ -1,16 +1,27 @@
 
+# Installation:
 
 
+Scroll to the bottom of the page to view the Jasmine test section. 
+Tests that are green have passed and red have failed.
 
-Scroll to the bottom of the page to view the Jasmine test section.
+# Tests:
 
+* Test that loops through each feed in the allFeeds object and
+  ensures it has a URL defined and that the URL is not empty.
+* Test that loops through each feed in the allFeeds object and
+  ensures it has a name defined and that the name is not empty.
+* Test to ensure menu element is hidden by default.
+* Test that ensures the menu opens when the menu icon is clicked.
+* Test that ensures the menu closes when clicked again.
+* Test to ensure when the loadFeed function is called and completed, that there
+  is .entry element within the .feed container.
+* Test that ensures when a new feed is loaded
+  by the loadFeed function that the content actually changes.
 
 # Project Overview
 
-In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
-
-
-
+ A web-based application that reads RSS feeds and uses Jasmine to test JavaScript functions.
 
 
 # Project Rubric
